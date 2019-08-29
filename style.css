@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+     font-weight: normal; 
+     font-style: normal; 
+     font-size: 15px; 
+     line-height: 24px; 
+     color: #616161;
+     background: #e7e7e7ff;
+     max-height: 250px;
+}
+
+.bio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding: 0;
+    /* border: 1px solid #e3e3e3; */
+    margin-top: -100px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.bioD {
+    display: flex;
+    padding-top: 10px;
+}
+.bioDLeft p {
+    /* padding-bottom: 5px; */
+}
+
+.bioDRight{
+    padding-left: 20px;
+}
+
+.bioDRight p {
+    /* padding-bottom: 5px; */
+}
+
+.biodata {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.details {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.details h1 {
+    font-size: 25px;
+    color: #08c487;
+    text-transform: uppercase;
+}
+.details h1 span {
+    color: #333;
+    font-weight: 500;
+}
+
+.inner-box {
+    display: flex;
+    padding: 30px;
+}
+
+.logo {
+    color: #fff;
+    padding-top: 25px;
+    font-size: 15px;
+}
+
+.midspace {
+    padding: 15px;
+}
+
+.pix {
+    padding: 0;
+    height: 268px;
+    /* box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.9); */
+}
+
+progress[value] {
+    text-align:left;
+    height: 10px;
+    width: 100%;
+  
+    -webkit-appearance: none;
+    border: none;
+  }
+  
+  progress:before {
+    content: attr(data-label);
+    font-size: 0.8em;
+    vertical-align: 0
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #c9c9c9;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #08c487;
+  }
+  
+  progress::-moz-progress-bar
+  {
+    background-color: #08c487;
+  }
+
+.row {
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+
+.skill-level {
+    padding-left: 30px;
+    width: 60%;
+}
+
+.probox {
+    padding-bottom: 20px;
+}
+
+.skill-type p {
+    padding-bottom: 10px;
+    padding-top: 12px;
+    text-align: right;
+}
+
+.socialIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #08c487;
+    padding: 14px;
+}
+
+.shodow-box {
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.tittle {
+    color: #08c487;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.topbg{
+    min-height: 30vh;
+    background: #08c487;
+    background-attachment: fixed;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+/* WORK EXPERIENCE */
+
+.date-range {
+ 
+}
+
+.expi {
+    padding: 30px;
+}
+
+.exp-box {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.work {
+    flex-grow: 4;
+}
+
+.work h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.work h2{
+    font-size: 15px;
+}
+
+.work ul{
+    list-style: square;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+/* INTEREST */
+
+.interest {
+
+}
+
+.interest ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    flex-direction: row;
+    background: #08c487;
+    height: 50px;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info p {
+    color: #fff;
+    padding-top: 15px;
+}
+
