@@ -60,13 +60,13 @@
             </div>
 
           </div>
-          <div class="socialIcon">
-            <div><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/facebook.svg" alt="Facebook" width="25px"></div>
-            <div><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/twitter.svg" alt="Twitter" width="25px"></div>
-            <div><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/whatsapp.svg" alt="Whatsapp" width="25px"></div>
-            <div><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085839/task3/linkedin.svg" alt="Linkedin" width="25px"></div>
-            <div><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085839/task3/github.svg" alt="Github" width="25px"></div>
-            <div><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/skype.svg" alt="skype" width="25px"></div>
+          <div class="social-icon">
+            <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/facebook.svg" alt="Facebook" width="25px"></a> </div>
+            <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/twitter.svg" alt="Twitter" width="25px"></a> </div>
+            <div><a href="https://api.whatsapp.com/send?phone=234803568974" target="_blank" rel="noopener noreferrer"><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/whatsapp.svg" alt="Whatsapp" width="25px"></a> </div>
+            <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085839/task3/linkedin.svg" alt="Linkedin" width="25px"></a> </div>
+            <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085839/task3/github.svg" alt="Github" width="25px"></a> </div>
+            <div><a href="http://" target="_blank" rel="noopener noreferrer"><img class="svg" src="https://res.cloudinary.com/taotara/image/upload/v1567085840/task3/skype.svg" alt="skype" width="25px"></a> </div>
           </div>
         </div>
 
@@ -243,6 +243,45 @@
 
   <!-- INTEREST SECTION END -->
 
+  <!-- CONTACT SECTION START -->
+
+  <section id="contact">
+      <div class="container">
+          <div class="row">
+          
+              <div class="contact-me">
+                  <button class="contact-me" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Contact Me</button> 
+                  
+          </div>
+          
+        
+          <div id="id01" class="modal"> 
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span> 
+              <form class="modal-content animate" action=""> 
+                  <div class="form-container"> 
+                          <h1 class="tittle">Talk to me</h1>
+                      <input class="form-input" type="text" placeholder="Enter Your Name" name="name" required> 
+        
+                      <input class="form-input" type="email" placeholder="Enter Email" name="email" required> 
+        
+                      <input class="form-input" type="text" placeholder="Enter Title" name="title" required>
+      
+                      <textarea rows="10" class="form-input" type="text" placeholder="Enter Message" name="message" required></textarea>
+        
+                      <div class="clearfix">
+                          <button type="submit" class="signupbtn">Send</button> 
+                      </div> 
+                  </div> 
+              </form> 
+          </div>
+              
+          </div>
+      </div>
+          
+  </section>
+  
+  <!-- CONTACT SECTION END -->
+
   <!-- FOOTER START -->
   <footer>
     <div class="container">
@@ -253,6 +292,11 @@
     </div>
   </footer>
   <!-- FOOTER END -->
+
+  
+  
+<script src="app.js"></script>
+
 </body>
 
 </html>
