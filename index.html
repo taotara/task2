@@ -256,17 +256,18 @@
           
         
           <div id="id01" class="modal"> 
-              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span> 
+              
               <form class="modal-content animate" action=""> 
                   <div class="form-container"> 
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span> 
                           <h1 class="tittle">Talk to me</h1>
-                      <input class="form-input" type="text" placeholder="Enter Your Name" name="name" required> 
+                      
+                      <input class="form-input" type="text" placeholder="Enter Title" name="title" required>
+                      <input minlength="4" class="form-input" type="text" placeholder="Enter Your Name" name="name" required> 
         
                       <input class="form-input" type="email" placeholder="Enter Email" name="email" required> 
-        
-                      <input class="form-input" type="text" placeholder="Enter Title" name="title" required>
       
-                      <textarea rows="10" class="form-input" type="text" placeholder="Enter Message" name="message" required></textarea>
+                      <textarea minlength="20" rows="10" class="form-input" type="text" placeholder="Enter Message" name="message" required></textarea>
         
                       <div class="clearfix">
                           <button type="submit" class="signupbtn">Send</button> 
